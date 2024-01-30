@@ -5,7 +5,7 @@
 	<key>EmbeddedEditorHidden:caitlynkantaparn</key>
 	<false/>
 	<key>ExpandedEditorWidth:caitlynkantaparn:displays([(0, 0), (1512, 982)])</key>
-	<integer>476</integer>
+	<integer>632</integer>
 	<key>ExpandedItems:caitlynkantaparn</key>
 	<array>
 		<string>C02FE825-5EE5-46CD-92E8-1CEBD4C4DA2F</string>
@@ -278,7 +278,7 @@
 	<array>
 		<dict>
 			<key>Date</key>
-			<date>2024-01-26T01:34:26Z</date>
+			<date>2024-01-30T00:20:16Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -322,7 +322,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2024-01-26T01:34:26Z</date>
+			<date>2024-01-30T00:20:16Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -366,7 +366,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2024-01-26T01:34:26Z</date>
+			<date>2024-01-30T00:20:16Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -410,7 +410,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2024-01-26T01:34:26Z</date>
+			<date>2024-01-30T00:20:16Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -451,7 +451,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2024-01-26T01:34:26Z</date>
+			<date>2024-01-30T00:20:16Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -494,7 +494,7 @@
 		</dict>
 		<dict>
 			<key>Date</key>
-			<date>2024-01-26T01:34:26Z</date>
+			<date>2024-01-30T00:20:16Z</date>
 			<key>Location</key>
 			<dict>
 				<key>BookmarkData</key>
@@ -543,8 +543,8 @@
 	<key>ToolbarVisible:caitlynkantaparn</key>
 	<false/>
 	<key>ViewSplitterPosition:caitlynkantaparn</key>
-	<real>0.30813953280448914</real>
+	<real>0.25118482112884521</real>
 	<key>WindowFrame:caitlynkantaparn:displays([(0, 0), (1512, 982)])</key>
-	<string>rect(66,0,939,688)</string>
+	<string>rect(66,0,939,844)</string>
 </dict>
 </plist>
