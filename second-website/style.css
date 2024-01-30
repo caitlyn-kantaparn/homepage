@@ -1,8 +1,7 @@
-body {background-color:rgb(3, 34, 4)}
 
-p {color:green;font-size: 22px;
-border: 5px solid turquoise;
+
+p {font-size: 22px;
 background-color:rgb(12, 67, 150)}
-h1 {color:pink;text-decoration:underline;}
-h2 {color:gold;text-decoration:bold;}
+h1 {color:rgb(0, 0, 0);text-decoration:underline;}
+h2 {color:rgb(0, 0, 0);text-decoration:bold;}
 
