@@ -3,4 +3,24 @@
 p {background-color: lightblue; padding: 10px;}
 img 
 {max width:100%}
+
 .more-specific {background-color: aquamarine;padding:20px}
+.square{
+    background-color: pink;
+    border: 60px;
+    height:100px;
+    width: 100px;
+    margin:20px 5px;
+}
+.relative{
+    background-color:aliceblue;
+    position:relative;
+    top:40px;
+    left:40px;
+
+}
+.fixed{
+    background-color:aqua;
+    position:fixed;
+    bottom:40px;
+}
