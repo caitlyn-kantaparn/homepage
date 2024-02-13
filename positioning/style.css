@@ -12,15 +12,31 @@ img
     width: 100px;
     margin:20px 5px;
 }
-.relative{
+.relative {
     background-color:aliceblue;
     position:relative;
     top:40px;
     left:40px;
 
 }
-.fixed{
+.fixed {
     background-color:aqua;
     position:fixed;
     bottom:40px;
+    left:70px;
+}
+
+.container{
+    background-color: beige;
+    height:500px;
+    width: 700px;
+    position: relative;
+}
+.absolute {
+    background-color: blue;
+    position: absolute;
+    bottom:0;
+    right:0;
+    margin:0;
+
 }

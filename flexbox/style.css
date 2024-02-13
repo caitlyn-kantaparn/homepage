@@ -1,0 +1,33 @@
+*{box-sizing: border-box}
+
+
+img 
+{max width:100%}
+
+.block {background-color: goldenrod;
+border: 1px;}
+
+.inline {background-color: aqua;
+display:inline-block}
+
+.container {background-color: rgb(238, 153, 243);
+        padding: 10px;
+    display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+height:600px;
+align-content:center;
+gap:20px 50px;}
+
+.item { 
+background-color: rgb(46, 139, 139);
+padding: 10px;
+width: 200px;
+height: 100px;
+text-align-last: center;
+
+display: flex;
+align-items:center;
+justify-content:center;
+}
