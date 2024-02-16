@@ -1,0 +1,72 @@
+*{box-sizing: border-box}
+
+
+img 
+{max-width:200px;}
+
+
+video 
+{max-width:200px;
+min-height: 200px;}
+
+h1 {font-family: 'Arial Narrow', Arial, sans-serif;}
+
+body {background-color: pink;
+    margin:0;
+    font-family:'Courier New', Courier, monospace;
+font-size: 18px;
+color: white ;
+fill:rgb(66, 66, 66);}
+
+    
+a {color:white}
+a:visited {color: rgb(142, 25, 125);
+fill:rgb(250, 201, 243);
+align-items:center;}
+
+.flexbox-container
+ {background-color: rgb(80, 11, 83);
+width: 500px;
+height: 500px; 
+flex-direction: row;
+flex-wrap: wrap;
+display: flex;
+margin:auto;
+;}
+
+
+
+.main-item {width: 50%;
+    height: 50%;
+text-align: center;
+background-color: rgb(66, 66, 66);
+border: solid;
+border-width: 1px;
+border-color:white ;
+}
+    
+    .dining-room {
+
+    min-height: 50%;
+ justify-content: center;
+ border
+}
+
+.living-room {
+    
+    min-height: 50%;
+
+}
+
+.kitchen-room {
+   
+    min-height: 50%;
+ 
+}
+
+.office-room {
+ 
+    min-height: 50%;
+ 
+}
+
