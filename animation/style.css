@@ -1,0 +1,90 @@
+*{box-sizing: border-box}
+body {background-color: darkseagreen;
+margin: 0px;}
+
+img 
+{max width:100%}
+
+/* .square {
+    background-color: lightcyan;
+    width: 300px;
+    height: 200px;
+    animation-name: life;
+    animation-duration: 21s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
+    animation: life 21s infinite alternate both;
+} */
+ 
+@keyframes life {
+    0% { 
+        background-color: lightcyan;
+    }
+6% {background-color: aquamarine;}
+
+70% {background-color: mediumseagreen;}
+
+    100% {
+        background-color: hotpink;
+    }
+}
+
+.container {
+    background-color: lightsteelblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.circle {
+    background-color: darkmagenta;
+    width:  20vw;
+    height: 20vw;
+    border-radius: 100%;
+    animation: pulse 4s infinite alternate; 
+}
+@keyframes pulse{
+    0% {background-color: darkmagenta
+    }
+    50%{background-color: blue;
+        }
+    100% {background-color: darkmagenta;  
+        transform: scale(2);  
+         }}
+
+
+.box {
+    background-color: rgb(122, 44, 19);
+    width: 20vw;
+    height:20vw;
+    animation:spin 4s infinite linear;
+    ;
+}
+@keyframes spin { 0% {transform: rotate(0deg);}
+                    100% {transform: rotate(360deg) ;}}
+
+                    .mover{
+                        background-color: rosybrown;
+                        width: 20vw;
+                        height: 4vw;
+                        position:fixed;
+                        bottom: 0;
+                        left: 0;
+                        animation: move 4s infinite alternate;
+                    }
+                    @keyframes move {
+                        0% {
+                       left:-20vw; skew:(0);}
+
+                        50% {
+                            transform:translatex(50vw)skew:(10deg)
+                        }
+
+                        100% {
+                            left:100vw; skew:(20deg);}
+                    }

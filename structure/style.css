@@ -70,3 +70,11 @@ border-color:white ;
  
 }
 
+.big-box {background-color: rgb(66, 66, 66);
+    width: 500px;
+    height: 500px;
+flex-direction: column;
+display: flex;
+margin:auto;
+justify-content: center;
+align-items: center;}
