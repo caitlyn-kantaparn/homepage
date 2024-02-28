@@ -1,0 +1,58 @@
+*{box-sizing: border-box}
+@font-face {
+    font-family: 'Anybody';
+    src: url(screensaver/Anybody-SemiBoldItalic.ttf)
+}
+
+img 
+{max-width:100%}
+
+body{
+    background-color: mistyrose;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+ 
+}
+.content
+
+{ justify-content: center;
+align-items: center;}
+.block
+{background-color: cadetblue;
+    width: 80vw;
+    height: 80vh ;
+    animation: make 4s infinite alternate; 
+
+}
+@keyframes make{
+  
+    0% {color: darkmagenta;
+        font-size: 100px;
+        font-family:"Anybody" ;
+  
+    }
+    50%{color: rgb(122, 122, 238);
+        font-size: 80px ;
+        font-family:"Anybody" ;
+    
+    }
+        }
+    100% {color: darkmagenta;  
+        font-size: 80px ;
+        font-family:"Anybody" ;  
+        
+         }
+
+.container
+{display: flex;
+    align-items: center;
+ 
+    justify-content: center;
+    position: fixed;
+    flex-direction: row;
+
+margin:auto;
+}
