@@ -1,0 +1,13 @@
+*{box-sizing: border-box}
+
+
+img 
+{max width:100%}
+
+@media screen and (max-width:14in) { 
+.pineapple {display: none;} 
+}
+
+@media screen and (max-width:12in) { 
+    .papaya {display: none;} 
+    }

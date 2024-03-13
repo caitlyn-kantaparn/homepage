@@ -19,8 +19,8 @@ body{
 .container
          {display: flex;
              align-items: center;
-             width: 80vw;
-             height: 80vh ;
+             width: 100vw;
+             height: 100vh ;
              justify-content: center;
              position: fixed;
              flex-direction: column;
@@ -29,87 +29,141 @@ body{
          
 
 .block
-{background-color: cadetblue;
+
+     
+{background-color: mistyrose;
+    animation: make 10s alternate-reverse infinite;
+    animation-delay: 5s;
     
 
-    animation: make 2s 2,
-    art 2s 2s 1 forwards,
-     infinite linear;
-
     text-align: center;
-    justify-items:first baseline;
-    flex-direction: column;
-    text-justify:distribute;
-    display: inline;}
+    justify-items:center;
+    flex-direction: row;
+    display:flex ;
+    margin: auto;}
     
 
 
 @keyframes make{
   
-    0% {color:darkmagenta;
-     font-size:20vw;
-        font-family: 'Helvetica Narrow Bold', sans-serif;}
-     
-
-    10%{color: rgb(122, 122, 238);
-            font-family:'Arial Narrow', sans-serif;
-            color: darkmagenta;
-                font-size:20vw;
-            text-transform: lowercase;}
-      
+    0% {color:rgb(233, 128, 233);
+     font-size:15vw;
+        font-family: 'Helvetica Narrow Bold', sans-serif;
+        -webkit-text-stroke: 2px rgb(133, 53, 147);}
    
-    25%{color: rgb(122, 122, 238);
+    5%{color: rgb(238, 122, 122);
         font-family:'Arial Narrow', sans-serif;
-     font-size: 20vw;}
+     font-size: 20vw;
+     -webkit-text-stroke: 5px rgb(147, 53, 59);}
   
     
-    50%{color: rgb(122, 122, 238);
-        font-family:'Arial-Narrow', sans-serif;
-        text-transform: lowercase;
-            font-size: 20vw;}
+    10%{color: rgb(233, 31, 65);
+        font-family:'Helvetica', sans-serif;
+        -webkit-text-stroke: 10px rgb(239, 176, 113);
+            font-size: 15vw;}
+    
+    15%{color:rgb(238, 122, 126);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+            font-size: 15vw;
+    }
 
         
-    100%{color:blue;
+    20%{color:rgb(114, 114, 244);
         font-family:Arial , serif ;
-    align-content:center;
-        font-size:20vw;
-    }}
+        -webkit-text-stroke: 2px rgb(224, 150, 173);
+        font-size:15vw;
+    }
 
-
-@keyframes art{
-0% {color:darkmagenta;
-    font-size:20vw;
-       font-family: 'Helvetica Narrow Bold', sans-serif;}
-    
-
-   10%{color: rgb(122, 122, 238);
-           font-family:'Arial Narrow', sans-serif;
-           color: darkmagenta;
-               font-size:20vw;
-           text-transform: lowercase;}
-     
+    25%{color: rgb(9, 9, 174);
+        font-family:Verdana, Geneva, Tahoma, sans-serif sans-serif;
+            font-size:20vw;
+        text-transform: lowercase;}
   
-   25%{color: rgb(122, 122, 238);
-       font-family:'Arial Narrow', sans-serif;
-    font-size: 20vw;}
- 
-   
-   50%{color: rgb(122, 122, 238);
-       font-family:'Arial-Narrow', sans-serif;
-       text-transform: lowercase;
-           font-size: 20vw;}
+        30%{color: rgb(95, 95, 232);
+            font-family:'Arial Narrow', sans-serif;
+                font-size:20vw;
+            text-transform: lowercase;}
+        
+    35%{color: rgb(57, 101, 163);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:20vw;
+        text-transform: lowercase;}
 
-       
-   100%{color:blue;
-       font-family:Arial , serif ;
-   align-content:center;
-       font-size:20vw;
-   }}
+    
+        40%{color: rgb(32, 93, 70);
+            font-family:'Geneva', sans-serif;
+                font-size:20vw;
+            text-transform: lowercase;}
 
-.content
-         
-         { justify-content: center;
-         align-items: center;
-         position: fixed;}
+            45% {color: rgb(101, 177, 121);
+                font-family:'Arial Narrow', sans-serif;
+                    font-size:20vw;
+                text-transform: lowercase;}
+                
+                50%{color: rgb(54, 97, 60);
+                    font-family:'Arial Narrow', sans-serif;
+                        font-size:23vw;
+                        text-shadow: 2px 2px rgb(119, 141, 141);
+                    text-transform: lowercase;} 
+    
+                    55%{color: rgb(140, 188, 132);
+                        font-family:'Arial Narrow', sans-serif;
+                            font-size:20vw;
+                        text-transform: lowercase;} 
+        
+    
+                        60%{color: rgb(117, 130, 74);
+                            font-family:'Arial Narrow', sans-serif;
+                                font-size:20vw;
+                                text-shadow:  5px 0px lightgreen, 10px 10px rgb(89, 132, 89),;
+                            text-transform: lowercase;} 
             
+    
+                            65%{color: rgb(207, 240, 158);
+                                font-family:'Arial Narrow', sans-serif;
+                                    font-size:20vw;
+                                    text-shadow: 20px 20px rgb(73, 89, 137);
+                                text-transform: lowercase;} 
+                
+                                70%{color: rgb(165, 113, 44);
+                                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                        font-size:20vw;
+                                        text-shadow:  15px 15px rgb(27, 34, 88);
+                                    text-transform: lowercase;} 
+                    
+                                75%{color:rgb(233, 193, 100);
+                                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                                    font-size:20vw;
+                                    text-shadow:  10px 10px rgb(107, 151, 180);
+                                text-transform: lowercase;} 
+
+        80%{color: rgb(238, 128, 73);
+            font-family: monospace;
+                font-size:20vw;
+                text-shadow:  -10px -10px rgb(144, 33, 75);
+            text-transform: lowercase;} 
+
+            85%{color: rgb(240, 198, 158);
+                font-family:'Georgia', serif;
+                    font-size:22vw;
+                text-transform: lowercase;} 
+
+                90%{color: rgb(246, 94, 94);
+                    font-family:'Georgia', serif;
+                        font-size:18vw;
+                    text-transform: lowercase;
+                    text-shadow:  -10px -10px rgb(79, 56, 101);} 
+    
+                    95%{color: rgb(240, 158, 158);
+                        font-family:'Cochin', serif;
+                            font-size:20vw;
+                            text-shadow:  -30px -30px rgb(138, 53, 153));
+                        text-transform: lowercase;} 
+
+                        100%{color: rgb(232, 136, 210);
+                            font-family:Georgia, 'Times New Roman', Times, serif;
+                                font-size:20vw;
+                            text-transform: lowercase;} 
+}
+
          
