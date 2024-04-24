@@ -1,0 +1,58 @@
+*{box-sizing: border-box;}
+
+
+img 
+{max-width:100%;}
+ 
+body {background-color:thistle;
+        }
+body.dark{
+    background-color: rgb(137, 97, 136);
+}
+.container
+{height:100vh;
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+z-index: -1;}
+
+.box
+{ height: 100px;
+width: 100px;
+background-color: rgb(99, 117, 218);}
+
+.box.dark {
+    background-color: rgb(36, 30, 97);
+    animation: spin 5s linear infinite;
+    animation-play-state: paused;
+}
+
+.box.spin{
+    animation: spin 5s linear infinite;
+    animation-play-state: running;
+
+}
+
+@keyframes spin {
+    0% {transform: rotate(0);}
+
+       100% {transform: rotate(360deg);}
+}
+
+.chair {
+    width: 200px;
+    position: fixed;
+    bottom: 10px;
+    top: 10px;
+    display: none;
+}
+
+.chair.reveal
+{display: block;}
+
+.draggable
+{cursor: grab;}

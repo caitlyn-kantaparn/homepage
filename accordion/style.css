@@ -1,13 +1,54 @@
 *{box-sizing: border-box}
-
+body { background-color: antiquewhite;}
 
 img 
-{max width:100%}
+{max-width:100%}
 
-@media screen and (max-width:14in) { 
-.pineapple {display: none;} 
+@media screen and (max-width:14in){ 
+div.pineapple {display: none;} 
 }
 
 @media screen and (max-width:12in) { 
-    .papaya {display: none;} 
+    div.papaya {display: none;} 
     }
+
+@media screen and (max-width:10in) { 
+        div.cantaloupe {display: none;} 
+        }
+
+@media screen and (max-width:8in) { 
+            div.mango {display: none;} 
+            }
+
+
+@media screen and (max-width:5in) { 
+        div.pomegranate {display: none;} }
+
+
+@media screen and (max-width:4in) { 
+        div.orange{display: none;} }
+
+@media screen and (max-width:3in) { 
+        div.lemon{display: none;} }
+    
+@media screen and (max-width:2in) { 
+        div.strawberry{display: none;} }     
+
+p   {animation: move 10s infinite ;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    position:fixed;
+    height: 28px;
+    font-size: 27px;
+    color:rgb(84, 71, 168);
+    display: flex;
+    white-space: nowrap;
+    
+}
+@keyframes move {
+    0% {
+   left:-40vw;}
+
+
+    100% {
+        left:120vw;}
+}
