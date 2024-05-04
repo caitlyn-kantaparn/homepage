@@ -13,6 +13,9 @@ body {
     font-size: 23px;
     font-family: "Inter", sans-serif;
     color:rgb(201, 192, 172) ;
+            display: block;
+        margin-left: auto;
+        margin-right: auto;
 
 
 }
